@@ -1,0 +1,23 @@
+{
+  "name": "frontend",
+  "version": "0.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrivateLessonsDashboard/Frontend.git"
+  },
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "lint": "turbo lint"
+  },
+  "devDependencies": {
+    "turbo": "^1.12.4"
+  },
+  "engines": {
+    "node": ">=20.11.1",
+    "pnpm": ">=8.15.4"
+  }
+}

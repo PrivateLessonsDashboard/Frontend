@@ -1,0 +1,17 @@
+# Code Editors
+.vscode
+.idea
+.fleet
+
+# Project
+node_modules
+build
+dist
+out
+
+# Global Env
+.env
+.env.local
+
+# Next.js
+.next
