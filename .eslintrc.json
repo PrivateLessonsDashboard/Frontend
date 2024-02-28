@@ -1,0 +1,3 @@
+{
+  "extends": "plugin:@repo/config/eslint/eslint-base.json"
+}
