@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import tailwindColors from "./src/styles/tw-extend/colors";
 
 const config: Config = {
   content: [
@@ -6,7 +7,9 @@ const config: Config = {
     "./src/components/**/*.{ts,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: tailwindColors,
+    },
   },
   plugins: [],
 };

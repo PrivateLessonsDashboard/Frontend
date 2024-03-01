@@ -4,6 +4,7 @@ import React from "react";
 import { Inter } from "next/font/google";
 
 import ReactQueryProvider from "@/app/_reactQuery/Provider";
+import NextThemesProvider from "@/app/_nextThemes/Provider";
 
 import type { Metadata } from "next";
 
@@ -22,7 +23,9 @@ function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ReactQueryProvider>{children}</ReactQueryProvider>
+        <ReactQueryProvider>
+          <NextThemesProvider>{children}</NextThemesProvider>
+        </ReactQueryProvider>
       </body>
     </html>
   );

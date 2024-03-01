@@ -1,0 +1,8 @@
+[data-theme="dark"],
+.dark {
+  --color-accent: 29, 76%, 46%;
+  --color-primary: 0, 0%, 94%;
+  --color-secondary: 0, 0%, 12%;
+  --color-destructive: 0, 59%, 33%;
+  --color-background: 240, 10%, 4%;
+}

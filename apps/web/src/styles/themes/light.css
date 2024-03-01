@@ -1,0 +1,8 @@
+[data-theme="light"],
+.light {
+  --color-accent: 29, 76%, 46%;
+  --color-primary: 0, 0%, 12%;
+  --color-secondary: 0, 0%, 94%;
+  --color-destructive: 0, 100%, 67%;
+  --color-background: 0, 0%, 100%;
+}
