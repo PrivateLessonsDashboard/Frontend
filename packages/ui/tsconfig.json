@@ -1,0 +1,13 @@
+{
+  "extends": "@repo/typescript-config/typescript-base.json",
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "jsx": "preserve",
+    "moduleResolution": "Bundler",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["."],
+  "exclude": ["**/*.stories.tsx", "build", "node_modules"]
+}
