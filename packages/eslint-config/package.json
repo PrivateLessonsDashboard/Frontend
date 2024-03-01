@@ -4,6 +4,7 @@
   "private": true,
   "license": "GPL-3.0-only",
   "files": [
-    "eslint-base.json"
+    "eslint-base.json",
+    "eslint-next.json"
   ]
 }
