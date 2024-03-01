@@ -7,8 +7,6 @@
     "jsx": "preserve",
     "moduleResolution": "Bundler",
     "allowJs": true,
-    "plugins": [
-      { "name": "next" }
-    ]
+    "plugins": [{ "name": "next" }]
   }
 }
