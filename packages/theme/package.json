@@ -1,0 +1,11 @@
+{
+  "name": "@repo/theme",
+  "version": "0.0.0",
+  "private": true,
+  "license": "GPL-3.0-only",
+  "files": [
+    "themes/light.css",
+    "themes/dark.css",
+    "tw-extend/colors.ts"
+  ]
+}

@@ -10,6 +10,7 @@
     "storybook": "storybook dev -p 6006"
   },
   "dependencies": {
+    "@repo/theme": "workspace:*",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "tailwind-merge": "^2.2.1"

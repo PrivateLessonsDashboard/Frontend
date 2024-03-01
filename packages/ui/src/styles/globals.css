@@ -1,3 +1,11 @@
+@import "@repo/theme/themes/light.css";
+@import "@repo/theme/themes/dark.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply text-primary;
+  @apply bg-background;
+}
