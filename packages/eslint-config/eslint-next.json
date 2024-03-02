@@ -1,4 +1,12 @@
 {
   "$schema": "https://json.schemastore.org/eslintrc.json",
-  "extends": ["./eslint-base.json", "next/core-web-vitals"]
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:react/recommended",
+    "./eslint-base.json"
+  ],
+  "plugins": ["react"],
+  "rules": {
+    "react/react-in-jsx-scope": "off"
+  }
 }
