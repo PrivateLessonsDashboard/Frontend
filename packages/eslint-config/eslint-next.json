@@ -5,9 +5,10 @@
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "plugin:jsx-a11y/recommended",
+    "plugin:@tanstack/eslint-plugin-query/recommended",
     "./eslint-base.json"
   ],
-  "plugins": ["react", "react-hooks", "jsx-a11y"],
+  "plugins": ["react", "react-hooks", "jsx-a11y", "@tanstack/query"],
   "rules": {
     "react/react-in-jsx-scope": "off"
   }

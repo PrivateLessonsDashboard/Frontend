@@ -8,6 +8,7 @@
     "eslint-next.json"
   ],
   "devDependencies": {
+    "@tanstack/eslint-plugin-query": "^5.20.1",
     "@typescript-eslint/eslint-plugin": "^7.1.0",
     "@typescript-eslint/parser": "^7.1.0",
     "eslint-config-prettier": "^9.1.0",
