@@ -11,6 +11,9 @@ importers:
       '@repo/eslint-config':
         specifier: workspace:*
         version: link:packages/eslint-config
+      '@repo/typescript-config':
+        specifier: workspace:^
+        version: link:packages/typescript-config
       eslint:
         specifier: ^8.57.0
         version: 8.57.0
@@ -62,6 +65,8 @@ importers:
         version: 5.3.3
 
   packages/eslint-config: {}
+
+  packages/typescript-config: {}
 
 packages:
 
