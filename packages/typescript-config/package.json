@@ -4,6 +4,7 @@
   "private": true,
   "license": "GPL-3.0-only",
   "files": [
-    "typescript-base.json"
+    "typescript-base.json",
+    "typescript-next.json"
   ]
 }
