@@ -1,2 +1,2 @@
-export * from "@/cn";
-export * from "@/http-client";
+export * from "./src/cn";
+export * from "./src/http-client";
