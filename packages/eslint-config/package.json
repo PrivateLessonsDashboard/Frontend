@@ -9,6 +9,7 @@
   ],
   "devDependencies": {
     "@next/eslint-plugin-next": "^14.1.2",
+    "@tanstack/eslint-plugin-query": "^5.20.1",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3"
   }
