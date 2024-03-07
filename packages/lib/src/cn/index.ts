@@ -11,6 +11,6 @@ import { twMerge } from "tailwind-merge";
  * <h1 className={cn("text-red-500", { active && "text-blue-500" })}>Hello World!</h1>
  * ```
  */
-export function cn(...inputs: ClassValue[]) {
+export function index(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
