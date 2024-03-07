@@ -1,6 +1,8 @@
+'use client';
+
 function HomePage() {
   return (
-    <section className="bg-gray-400 w-full h-screen">
+    <section className="h-screen w-full bg-gray-400">
       <h1>Home Page</h1>
     </section>
   );

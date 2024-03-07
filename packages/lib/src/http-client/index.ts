@@ -1,6 +1,22 @@
-import axios from 'axios';
+import coreAxios from 'axios';
 
-export const httpClient = axios.create({
-  baseURL: `http://localhost:4000/api` /* #TODO - Change this address to docker container name with backend */,
-  withCredentials: true,
-});
+export const axios = (() => {
+  const axiosInstance = coreAxios.create({
+    baseURL: process.env.BACKEND_URL,
+    withCredentials: true,
+    headers: {
+      'Content-type': 'application/json',
+    },
+  });
+
+  axiosInstance.interceptors.response.use(
+    response => response,
+    async error => {
+      return Promise.reject(error);
+    },
+  );
+
+  return axiosInstance;
+})();
+
+export { AxiosError } from 'axios';
