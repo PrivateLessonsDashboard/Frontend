@@ -3,7 +3,7 @@ import "@/styles/globals.css";
 import React from "react";
 import { Inter } from "next/font/google";
 
-import ReactQueryProvider from "./_react-query/Provider";
+import ReactQueryProvider from "src/app/_react-query/provider";
 
 import type { Metadata } from "next";
 
