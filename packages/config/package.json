@@ -3,11 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "license": "GPL-3.0-only",
-  "files": [
-    "../../.prettierrc",
-    "eslint/eslint-base.json",
-    "eslint/eslint-next.json",
-    "typescript/typescript-base.json",
-    "typescript/typescript-next.json"
-  ]
+  "devDependencies": {
+    "tailwindcss": "^3.3.0"
+  }
 }

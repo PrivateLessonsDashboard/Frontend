@@ -1,11 +1,9 @@
+import baseConfig from '@repo/config/tailwind.config.ts';
+
 import type { Config } from 'tailwindcss';
 
-const config: Config = {
-  content: ['./src/app/**/*.{ts,tsx,mdx}', './src/components/**/*.{ts,tsx,mdx}'],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
+const config: Pick<Config, 'presets'> = {
+  presets: [{ ...baseConfig }],
 };
 
 export default config;
