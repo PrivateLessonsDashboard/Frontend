@@ -1,9 +1,9 @@
-import "@/styles/globals.css";
+import "@repo/styles/globals.css";
 
 import React from "react";
 import { Inter } from "next/font/google";
 
-import ReactQueryProvider from "src/app/_react-query/provider";
+import ReactQueryProvider from "./_react-query/provider";
 
 import type { Metadata } from "next";
 
