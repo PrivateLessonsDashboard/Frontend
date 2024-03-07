@@ -4,6 +4,7 @@
   "private": true,
   "license": "GPL-3.0-only",
   "files": [
+    "../../.prettierrc",
     "eslint/eslint-base.json",
     "eslint/eslint-next.json",
     "typescript/typescript-base.json",
