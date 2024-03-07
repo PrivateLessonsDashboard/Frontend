@@ -1,7 +1,0 @@
-{
-  "root": true,
-  "extends": [
-    "@repo/eslint-config/eslint-next.json",
-    "plugin:storybook/recommended"
-  ]
-}
