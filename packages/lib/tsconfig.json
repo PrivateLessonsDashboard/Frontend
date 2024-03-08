@@ -3,7 +3,8 @@
   "compilerOptions": {
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "jsx": "react"
   },
   "include": ["."],
   "exclude": ["node_modules"]

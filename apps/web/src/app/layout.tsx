@@ -1,11 +1,8 @@
 import '@repo/styles/globals.css';
-
 import React from 'react';
 import { Inter } from 'next/font/google';
-
-import ReactQueryProvider from './_react-query/provider';
-
 import type { Metadata } from 'next';
+import { ProvidersWrapper } from '@/components/ProvidersWrapper.tsx';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -22,7 +19,7 @@ function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ReactQueryProvider>{children}</ReactQueryProvider>
+        <ProvidersWrapper>{children}</ProvidersWrapper>
       </body>
     </html>
   );
