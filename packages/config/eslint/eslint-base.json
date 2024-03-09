@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json.schemastore.org/eslintrc.json",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "no-restricted-imports": [
+      "error",
+      {
+        "paths": [
+          {
+            "name": "axios",
+            "message": "Please import from '@repo/lib' instead"
+          },
+          {
+            "name": "@tanstack/react-query",
+            "message": "Please import from '@repo/lib' instead"
+          },
+          {
+            "name": "clsx",
+            "message": "Please import {cn} from '@repo/lib' instead"
+          },
+          {
+            "name": "tailwind-merge",
+            "message": "Please import {cn} from '@repo/lib' instead"
+          }
+        ]
+      }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
+  }
+}
