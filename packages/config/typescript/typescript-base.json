@@ -5,6 +5,11 @@
     "incremental": true,
     "moduleResolution": "Node",
     "resolveJsonModule": true,
+    "target": "ESNext",
+    "lib": [
+      "ESNext"
+    ],
+    "module": "ESNext",
     "noEmit": true,
     "isolatedModules": true,
     "esModuleInterop": true,
