@@ -1,9 +1,9 @@
 {
   "$schema": "https://json.schemastore.org/eslintrc.json",
   "extends": [
-    "./eslint-base.json",
     "next",
     "next/core-web-vitals",
-    "plugin:@tanstack/eslint-plugin-query/recommended"
+    "plugin:@tanstack/eslint-plugin-query/recommended",
+    "./eslint-base.json"
   ]
 }
