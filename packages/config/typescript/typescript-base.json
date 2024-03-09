@@ -3,9 +3,6 @@
   "display": "Default",
   "compilerOptions": {
     "incremental": true,
-    "target": "ESNext",
-    "lib": ["ESNext"],
-    "module": "ESNext",
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "noEmit": true,

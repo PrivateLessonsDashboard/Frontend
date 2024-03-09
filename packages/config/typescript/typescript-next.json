@@ -3,10 +3,20 @@
   "display": "Next.js",
   "extends": "./typescript-base.json",
   "compilerOptions": {
-    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": [
+      "ESNext",
+      "DOM",
+      "DOM.Iterable"
+    ],
     "jsx": "preserve",
     "moduleResolution": "Bundler",
     "allowJs": true,
-    "plugins": [{ "name": "next" }]
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   }
 }

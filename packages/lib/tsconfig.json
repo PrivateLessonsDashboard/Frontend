@@ -2,10 +2,16 @@
   "extends": "@repo/config/typescript/typescript-base.json",
   "compilerOptions": {
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": [
+        "./src/*"
+      ]
     },
-    "jsx": "react"
+    "jsx": "react-jsx"
   },
-  "include": ["."],
-  "exclude": ["node_modules"]
+  "include": [
+    "."
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
