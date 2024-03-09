@@ -10,7 +10,7 @@
       "DOM",
       "DOM.Iterable"
     ],
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "moduleResolution": "Bundler",
     "allowJs": true,
     "plugins": [
