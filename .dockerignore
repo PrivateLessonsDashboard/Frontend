@@ -1,0 +1,13 @@
+.env.example
+.idea
+.gitignore
+LICENSE
+.dockerignore
+Dockerfile
+node_modules
+.next
+.turbo
+.prettierrc
+.git
+*.md
+dist
